@@ -1,17 +1,19 @@
 {
   "name": "command-executer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "start": "node --experimental-modules src/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gulzat D",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.11"
+    "inquirer": "^8.2.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.6"
-  }
+    "@types/inquirer": "^8.2.0",
+    "@types/node": "^17.0.14"
+  },
+  "description": ""
 }
